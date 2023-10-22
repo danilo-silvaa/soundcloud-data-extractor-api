@@ -1,0 +1,24 @@
+{
+  "name": "soundcloud-data-extractor-api",
+  "version": "1.0.0",
+  "description": "API for extracting data from SoundCloud.",
+  "author": "https://beacons.ai/danilomodz",
+  "scripts": {
+    "test": "vitest",
+    "start:dev": "tsx watch src/main/index.ts",
+    "build": "tsup src"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.4.0",
+    "axios": "^1.5.1",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.24.3",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "tsup": "^7.2.0",
+    "tsx": "^3.14.0",
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.6"
+  }
+}
